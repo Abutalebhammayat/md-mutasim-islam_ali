@@ -1,0 +1,46 @@
+body{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+#hover-to-color :hover{
+    color: white !important;
+}
+/* .hover-to-all div{
+    background-color: rgb(34, 35, 35);
+}
+.hover-to-all :hover{
+    background-color: black;
+} */
+/* #carding img:hover{
+    padding: -10px;
+} */
+/* .hide-icon{
+    display: none;
+}
+.unhide-icon :hover + .hide-icon{
+    display: block;
+} */
+#gayabulhaoya{
+    position: relative;
+    color: #111312;
+}
+#gayabulhaoya::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: white;
+    border-right: 2px solid gray;
+    overflow: hidden;
+    animation: animate 3s linear infinite;
+}
+@keyframes animate {
+    0%,10%,100%{
+        width: 0;
+    }
+    70%,90%{
+        width: 100%;
+    }
+}
