@@ -2,24 +2,6 @@ body{
     font-family: 'EB Garamond', serif;
     font-family: 'Montserrat', sans-serif;
 }
-#hover-to-color :hover{
-    color: white !important;
-}
-/* .hover-to-all div{
-    background-color: rgb(34, 35, 35);
-}
-.hover-to-all :hover{
-    background-color: black;
-} */
-/* #carding img:hover{
-    padding: -10px;
-} */
-/* .hide-icon{
-    display: none;
-}
-.unhide-icon :hover + .hide-icon{
-    display: block;
-} */
 #gayabulhaoya{
     position: relative;
     color: #111312;
@@ -34,7 +16,7 @@ body{
     color: white;
     border-right: 2px solid gray;
     overflow: hidden;
-    animation: animate 3s linear infinite;
+    animation: animate 2s linear infinite;
 }
 @keyframes animate {
     0%,10%,100%{
@@ -43,4 +25,9 @@ body{
     70%,90%{
         width: 100%;
     }
+}
+.shortcut-btn-up{
+    position: fixed;
+    bottom: 10px;
+    left: 1250px;
 }
