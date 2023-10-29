@@ -29,5 +29,8 @@ body{
 .shortcut-btn-up{
     position: fixed;
     bottom: 10px;
-    left: 1250px;
+    right: 10px;
+}
+.circle-broder{
+    border-radius: 50%;
 }
